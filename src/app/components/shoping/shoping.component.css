@@ -1,0 +1,43 @@
+.shoping{
+    color: #808080;
+}
+.card{
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+.card h1{
+    text-align: center;
+    margin-top: 20px;
+    padding:15px;
+    color: #000000;
+    font-size: 22.4px;
+    font-weight: 100px;
+}
+.banner{
+    margin-top: 50px;
+}
+.banner button{
+    background-color: #fd7e14;
+    color: #fff;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    margin-top: 20px;
+}
+.banner input{
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+    color: #000000;
+    margin-top: 20px;
+}
+.banner li, p{
+margin-top: 15px;
+}
+.banner h1{
+    color: #000000;
+}
+
