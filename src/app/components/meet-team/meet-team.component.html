@@ -1,7 +1,20 @@
+<section fxLayoutAlign="center">
+  <div>
+    <div>
+      <h1>Meet Team</h1>
+      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+    </div>
+    <div fxLayout="row wrap" fxLayoutAlign="space-around center">
 
-       <ng-container *ngFor="let item of content">
-        <div class="card">
-          <h1>{{ item.head }}</h1>
-          <p>{{ item.pera }}</p>
+      <ng-container *ngFor="let item of content">
+        <div fxFlex.xl="20" fxFlex.lg="20" fxFlex.md="40" fxFlex.sm="45" fxFlex.xs="90">
+          <div class="card">
+            <img src="{{ item.img }}" alt="img-part" />
+            <h1>{{ item.head }}</h1>
+            <p>{{ item.pera }}</p>
           </div>
+        </div>
       </ng-container>
+    </div>
+  </div>
+</section>

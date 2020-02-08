@@ -1,0 +1,62 @@
+.coursel-img {
+  height: 300px;
+  width:600px;
+}
+.content h1 {
+  text-align: center;
+  color: #fd7e14;
+  padding: 20px;
+  font-size: 40px;
+}
+.content p {
+  text-align: center;
+  color: #808080;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.left-arrow {
+  height: 50px;
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.right-arrow {
+  height: 50px;
+  cursor: pointer;
+}
+button {
+  background-color: #fd7e14;
+  color: #fff;
+  border-radius: 20px;
+  height: 50px;
+  width: 140px;
+  border: none;
+  margin-top: 20px;
+}
+.content-of-img h1 {
+  color: #fd7e14;
+  padding: 20px;
+}
+.content-of-img p {
+  color: #808080;
+  margin: 10px;
+}
+.img-of-item{
+    position: relative;
+}
+.arrow-controls{
+    position: absolute;
+    right: -53px;
+    top: 130px;
+
+}
+
+ @media only screen and (max-width: 600px) {
+    .arrow-controls{
+        left: 315px;
+        top: 275px;
+
+    
+    }
+  } 

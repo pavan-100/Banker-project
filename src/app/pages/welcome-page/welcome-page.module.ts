@@ -24,6 +24,7 @@ import { ShopingComponent } from 'src/app/components/shoping/shoping.component';
 
 //-----------------------------------services------------------------------------------------//
 import { TeamService } from 'src/app/components/meet-team/team.service';
+import { GalleryService } from 'src/app/components/gallery/gallery.service';
 
 const routes: Routes = [
   { path: "", component: WelcomePageComponent }
@@ -34,6 +35,6 @@ const routes: Routes = [
   imports: [
     CommonModule,FlexLayoutModule,SharedModule, RouterModule.forRoot(routes)
   ],
-  providers:[TeamService]
+  providers:[TeamService,GalleryService]
 })
 export class WelcomePageModule { }
