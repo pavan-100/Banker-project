@@ -1,1 +1,22 @@
-<p>pricing works!</p>
+<div class="header">
+    <h1>Pricing</h1>
+</div>
+<div fxLayout="row wrap" fxLayoutAlign="center">
+
+    <ng-container *ngFor="let item of data">
+        <div fxFlex.xs="80" fxFlex.sm="80" fxFlex.md="35" fxFlex.lg="20" fxFlex.xl="20">
+            <div class="card-body">
+                <h2>{{ item.head }}</h2>
+                <h1>{{item.rupees }}</h1>
+                <p>{{ item.peragraph1 }}</p>
+                <p><del>{{ item.peragraph2 }}</del></p>
+                <p>{{ item.peragraph3 }}</p>
+                <p>{{ item.peragraph4 }}</p>
+                <p>{{ item.peragraph5 }}</p>
+                <div fxLayoutAlign="center">
+                    <button>{{ item.button }}</button>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>

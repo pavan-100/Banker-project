@@ -1,0 +1,22 @@
+.customer h1 {
+  color: #fd7e14;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.customer p {
+  color: gray;
+  margin-top: 40px;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 30px;
+  max-width: 660px;
+  margin-left: 10px;
+}
+.customer img {
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.customer {
+  height: 400px;
+}

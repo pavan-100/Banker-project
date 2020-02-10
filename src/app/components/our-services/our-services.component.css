@@ -1,0 +1,23 @@
+.service-content h1 {
+  font-size: 20px;
+  color: #000;
+  margin-top: 15px;
+}
+.service-content p {
+  color: #808080;
+  margin-top: 15px;
+}
+.service-content button {
+  color: #fd7e14;
+  border: none;
+  margin-top: 15px;
+}
+.service-content img {
+  margin-top: 20px;
+}
+.service {
+  margin-top: 30px;
+  color: #fd7e14;
+  font-size: 25px;
+  font-weight: 400;
+}
